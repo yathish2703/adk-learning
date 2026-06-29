@@ -1,0 +1,50 @@
+# AI Agents and Agentic Systems
+
+## What is an AI Agent?
+An AI agent is an autonomous system that can perceive its environment, make decisions, and take actions to achieve specific goals. Unlike a simple LLM call (one question, one answer), an agent runs in a loop: reason → act → observe → repeat.
+
+## Core Components
+
+### Reasoning
+The model decides what to do next based on the current state and goal.
+
+### Acting
+The agent executes actions, typically by calling tools or functions with chosen inputs.
+
+### Observing
+The system feeds results back to the agent, which then determines the next step.
+
+## Key Characteristics
+- **Autonomy**: Operates without constant human intervention
+- **Goal-Oriented**: Works toward specific objectives
+- **Adaptive**: Learns from feedback and adjusts behavior
+- **Tool Use**: Can call external functions and APIs
+
+## Multi-Agent Systems
+Complex tasks often benefit from multiple specialized agents working together:
+- **Sequential**: Agents work in a pipeline (research → analyze → report)
+- **Parallel**: Agents work simultaneously on independent tasks
+- **Hierarchical**: Manager agents coordinate worker agents
+
+## Agent Development Kit (ADK)
+Google's ADK provides a framework for building production-ready AI agents with:
+- Code-first development approach
+- Built-in tools and memory systems
+- Session management and state tracking
+- Support for multi-agent orchestration
+- Deployment to cloud platforms
+
+## Popular Use Cases
+- Customer service chatbots
+- Research assistants
+- Code generation and debugging
+- Data analysis and reporting
+- Task automation
+- Personal assistants
+
+## Challenges
+- Reliability and consistency
+- Safety and alignment
+- Tool selection and usage
+- Context management
+- Error handling and recovery
